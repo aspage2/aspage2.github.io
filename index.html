@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+		<style>
+#barbarian-map {
+	  height: 600px;
+		width: 1200px;
+}
+		</style>
+	</head>
+	<body>
+		<p>Barbarian Blitz</p>
 
-<head>
-	<title>Welcome</title>
-</head>
+		<div id="barbarian-map"></div>
+		<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+		<script>var LATLNGS = [];</script>
 
-<body>
-	<div style="width:300px;margin:0 auto;"><div style="text-align:center"><span style="font:9px/14px arial; color:#3d3d3d;">Powered By <a target="_blank" id="vt_link" rel="nofollow" href="http://www.varsitytutors.com/tutors/878468520/">Varsity Tutors</a></span></div><iframe id="vt_content_frame" allowtransparency="true" style="height:520px; width:300px" frameborder="0" src="//widgets.varsitytutors.com/tutors/878468520/badge?vt_theme=vt1"></iframe></div>
-</body>
+		<script src="./lemont.js"></script>
+		<script src="./hinsdale.js"></script>
+		<script src="./yorkville.js"></script>
+		<script src="./blackwell.js"></script>
 
+		<script src="./index.js"></script>
+	</body>
 </html>
